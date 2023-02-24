@@ -42,5 +42,5 @@ streamlit.text(my_data_row)
 streamlit.header("Fruitload list contains")
 streamlit.dataframe(my_data_row)
 fruit_like_by_user = streamlit.text_input('What fruit would you like to add?','jackfruit')
-streamlit.write('The user entered ', fruit_like_by_user)
+streamlit.write('thanks for adding:', fruit_like_by_user)
 
