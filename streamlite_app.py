@@ -43,4 +43,4 @@ streamlit.header("Fruitload list contains")
 streamlit.dataframe(my_data_row)
 fruit_like_by_user = streamlit.text_input('What fruit would you like to add?','jackfruit')
 streamlit.write('thanks for adding:', fruit_like_by_user)
-
+my_cur.execite("Insert into fruit_load_list values ('test') ")
